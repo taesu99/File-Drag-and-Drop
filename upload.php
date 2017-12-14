@@ -71,7 +71,7 @@
 				
 			}else{
 				//move files
-				//cannot use additional if statement to 
+				//cannot use additional if statement to confirm file are in old directory and it is successfully migrated to new directory
 				move_uploaded_file($temp, $target_path);
 				//unlink($old_path);
 				$log = fopen('transferlog.txt','a');
