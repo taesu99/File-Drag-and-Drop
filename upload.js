@@ -12,8 +12,7 @@ $(document).ready(function(){
 	//dynamically load old directory dropbox
 	var origdirArray = {
 		"Select":"",
-		"Processing":"C://Users/briantk/Pictures/Processing/",
-		"TEST1":"C://Users/briantk/Pictures/Processing/test1/"
+		"":""
 	};
 	var origdirHTML ="<select id='origlocation'>";
 	$.each(origdirArray, function(key,value){
@@ -48,16 +47,7 @@ $(document).ready(function(){
 		//dynamically generate drop down box for original directory
 		var newdirArray ={
 			"Select":"",
-			"Superheroes":"E://Photo Repository/Visual Sets/WW/",
-			"Online Arts":"E://Photo Repository/Visual Sets/Online Arts/",
-			"Imgur":"E://Photo Repository/Visual Sets/Online Arts/Photos/",
-			"RoK Military":"E://Photo Repository/Visual Sets/Military/",
-			"Other Militaries":"E://Photo Repository/Visual Sets/Military/NonKoreanMilitary/",
-			"Science Fiction":"E://Photo Repository/Visual Sets/Military/Others/",
-			"Anime":"E://Photo Repository/Visual Sets/Anime, Manga, Manhwa and Pseudomanga/",
-			"Pictures":"E://Photo Repository/Visual Sets/Images/",
-			"TEST2":"E://Photo Repository/Visual Sets/Anime, Manga, Manhwa and Pseudomanga/test2/",
-			"TEST3":"E://Photo Repository/Visual Sets/Anime, Manga, Manhwa and Pseudomanga/test3/"
+			"":""
 		};
 		
 		var newdirHTML ="<select id='newlocation'>";
